@@ -1,0 +1,88 @@
+#forum_question {
+	padding: 10px 0px;
+}
+
+#forum_question .title {
+	font-weight: bold;
+	font-size: 24px;
+	color: #555;
+	border-bottom: 1px solid #f1f1f1;
+	padding: 10px;
+}
+
+.forum_question_insert {
+	border: 1px solid #f1f1f1;
+}
+
+.forum_question_insert textarea {
+    display: block;
+    border: 1px solid #f1f1f1;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    height: 100px;
+    width: 98%;
+    resize: none;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.forum_question_insert input[type="submit"] {
+	float: right;
+    display: block;
+    background: #3F75BB;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 4px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.forum_question_insert input[type="submit"]:hover {
+	background: #2c5b99;
+}
+
+.forum_question_display {
+	padding: 10px;
+}
+
+.forum_question_display .each_forum_question {
+	display: flex;
+	padding: 10px;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+
+.forum_question_display .each_forum_question .each_forum_question_image {
+	flex: 1;
+}
+
+.forum_question_display .each_forum_question .each_forum_question_image img {
+	width: 100%;
+}
+
+
+
+.forum_question_display .each_forum_question .each_forum_question_content {
+	flex: 8;
+	padding-left: 10px;
+}
+
+.forum_question_display .each_forum_question .each_forum_question_content .each_forum_question_content_name {
+	position: relative;
+	left: -10px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #555;
+}
+
+.forum_question_display .each_forum_question .each_forum_question_content .each_forum_question_content_content {
+	padding-top: 10px;
+}
+
+.forum_question_display .each_forum_question .each_forum_question_content .each_forum_question_content_content a {
+	text-decoration: none;
+	color: #3F75BB;
+}

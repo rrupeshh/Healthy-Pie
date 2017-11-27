@@ -1,0 +1,62 @@
+
+
+#port_folio input[type="text"],#port_folio input[type="date"],#port_folio textarea[name="biography"],#port_folio input[type="password"]  {
+	font-weight: normal;
+	padding: 4px;
+	border: 1px solid #d1d1d1;
+	resize: none;
+	outline: none;
+}
+
+#port_folio fieldset {
+	border: 1px solid #f1f1f1;
+}
+
+#port_folio fieldset legend {
+	font-weight: bold;
+	font-size: 18px;
+	color: #3F75BB;
+}
+
+#port_folio input[type="reset"], #port_folio input[type="submit"] , #port_folio label[for="file"] {
+	font-family: "Trebuchet MS";
+	margin-top: 20px;
+	margin-right: 10px;
+	width: 150px;
+	float: left;
+	display: block;
+	padding: 10px;
+	outline: none;
+	border: none;
+	font-size: 18px;
+	background: #3F75BB;
+	color: #fff;
+	cursor: pointer;
+
+}
+
+#port_folio select {
+	padding: 4px;
+	outline: none;
+}
+
+#port_folio input[type="reset"]:hover, #port_folio input[type="submit"]:hover {
+	background: #1a4a7a;
+}
+
+a.portfolio_link {
+	text-decoration: none;
+	color: #16C;
+	display: block;
+	padding: 10px 0px;
+	width: 160px;
+	margin: 10px 0px;
+}
+
+a.portfolio_link:hover {
+	color: #1a4afa;
+}
+
+#suggestion_section {
+	color: #444;
+}

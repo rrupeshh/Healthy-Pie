@@ -1,0 +1,100 @@
+#wrap {
+	border: 1px solid #f1f1f1;
+	padding: 10px;
+}
+
+#wrap #center {
+	display: flex;
+}
+
+#wrap #center .first_div {
+	flex: 1;
+	border: 1px solid #f1f1f1;
+	padding-top: 10px;
+	box-shadow: 8px 0px 16px rgba(0,0,0,0.2);
+}
+
+#wrap #center .first_div .user_image {
+	padding: 10px;
+	border: 1px solid #f1f1f1;
+}
+
+#wrap #center .first_div .user_image img {
+	width: 100%;
+}
+
+#wrap #center .first_div .user_name {
+	padding: 10px;
+	font-weight: bold;
+	font-size: 30px;
+	color: #1a4a7a;
+	text-align: center;
+}
+
+#wrap #center .second_third {
+	flex: 1;
+	padding-left: 10px;
+	margin-left: 5px;
+}
+
+#wrap #center .second_third .second_div {
+	border-bottom: 1px solid #f1f1f1;
+	padding: 10px;
+}
+
+#wrap #center .second_third .second_div div {
+	font-weight: bold;
+	padding: 5px 0px;
+	font-size: 18px;
+	color: #444;
+}
+
+#wrap #center .second_third .second_div div span {
+	font-weight: normal;
+	color: #777;
+}
+
+#wrap #center .second_third .third_div {
+	padding: 10px;
+}
+
+#wrap #center .second_third .third_div .password {
+	font-weight: bold;
+	padding: 5px 0px;
+	font-size: 18px;
+	color: #444;
+}
+
+#wrap #center .second_third .third_div .profile {
+	font-weight: bold;
+	padding: 5px 0px;
+	font-size: 18px;
+	color: #444;
+	padding-left: 5px;
+}
+
+#wrap #center .second_third .third_div .password a {
+	text-decoration: none;
+	color: #1a4a7a;
+	font-weight: normal;
+	display: block;
+	padding-left: 10px;
+	width: 170px;
+}
+
+#wrap #center .second_third .third_div .profile a {
+	text-decoration: none;
+	color: #1a4a7a;
+	font-weight: normal;
+	display: block;
+	width: 100px;
+	padding-left: 10px;
+}
+
+#wrap #center .second_third .third_div .password a:hover {
+	text-decoration: underline;
+}
+
+#wrap #center .second_third .third_div .profile a:hover {
+	text-decoration: underline;
+}

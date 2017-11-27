@@ -1,0 +1,48 @@
+.update_profile_table {
+	width: 100%;
+	border: 1px solid #f1f1f1;
+	border-collapse: collapse;
+}
+
+.update_profile_table tr, tr td {
+	padding: 10px;
+}
+
+.update_profile_table tr td {
+	font-weight: bold;
+	font-size: 18px;
+	color: #444;
+}
+
+.update_profile_table tr td label {
+	font-weight: normal;
+}
+
+.update_profile_table tr td input[type="text"], .update_profile_table tr td  input[type="date"], .update_profile_table tr td  textarea[name="biography"] {
+	font-weight: normal;
+	padding: 4px;
+	border: 1px solid #d1d1d1;
+	resize: none;
+	outline: none;
+}
+
+.update_profile_table tr td input[type="reset"], .update_profile_table tr td input[type="submit"] ,  .update_profile_table tr td label[for="file"] {
+	font-family: "Trebuchet MS";
+	margin-top: 20px;
+	margin-right: 10px;
+	width: 150px;
+	float: left;
+	display: block;
+	padding: 10px;
+	outline: none;
+	border: none;
+	font-size: 18px;
+	background: #3F75BB;
+	color: #fff;
+	cursor: pointer;
+
+}
+
+.update_profile_table tr td input[type="reset"]:hover,.update_profile_table tr td input[type="submit"]:hover {
+	background: #1a4a7a;
+}

@@ -1,0 +1,70 @@
+#main_section_left #main_section_left_articles #recipe_header {
+  margin-top: 40px;
+  padding: 10px 0px;
+  font-size: 24px;
+  color: #333;
+  width: 100%;
+  font-family: "Trebuchet MS";
+  font-weight: bold;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+#main_section_left #main_section_left_articles .article {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+#main_section_left #main_section_left_articles .article a {
+  text-decoration: none;
+  color: #10274c;
+  transition: color 0.4s;
+}
+
+#main_section_left #main_section_left_articles .article:hover a {
+  color:#204b8e;
+}
+
+#main_section_left #main_section_left_articles .article .article_image {
+  width: 30%;
+  float: left;
+}
+
+#main_section_left #main_section_left_articles .article .article_content {
+  width: 70%;
+  float: left;
+  height: 120px;
+  overflow-y: hidden;
+  padding-left: 10px;
+}
+
+#main_section_left #main_section_left_articles .article .article_content .article_content_name {
+  font-weight: bold;
+  position: relative;
+  left: -10px;
+  font-family: "Trebuchet MS";
+  font-size: 24px;
+  color: #444;
+}
+
+#main_section_left #main_section_left_articles .article .article_content .article_content_posted_by {
+  padding-top: 5px;
+}
+
+#main_section_left #main_section_left_articles .article .article_content .article_content_ingredients {
+  padding-top: 15px;
+  font-family: "Trebuchet MS";
+  text-align: justify;
+}
+
+#main_section_left #main_section_left_articles .article .article_content .article_content_description {
+  padding-top: 18px;
+  font-family: "Trebuchet MS";
+  text-align: justify;
+}
+
+#main_section_left #main_section_left_articles .article .article_content .article_content_content {
+  padding-top: 18px;
+  font-family: "Trebuchet MS";
+  text-align: justify;
+}

@@ -1,0 +1,22 @@
+#main_header_navigation ul {
+  list-style-type: none;
+  display: flex;
+  border-left:2px solid #e1e1e1;
+  border-right: 2px solid #e1e1e1;
+}
+
+#main_header_navigation ul li {
+    text-align: center;
+    flex: 1;
+}
+
+#main_header_navigation ul li a {
+  font-family: "Trebuchet MS";
+  font-size: 18px;
+  text-decoration: none;
+  color: #222;
+}
+
+#main_header_navigation ul li a:hover {
+  text-decoration: underline;
+}
