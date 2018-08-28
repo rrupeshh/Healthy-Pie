@@ -17,7 +17,7 @@
 <html lang="en">
     <head>
         <meta chrset="utf-8">
-        <title>www.HealthyPie.com</title>
+        <title>HealthyPie</title>
         <link rel="stylesheet" href="styles/styles.css">
         <link rel="stylesheet" type="text/css" href="styles/forum_question.css">
     </head>
