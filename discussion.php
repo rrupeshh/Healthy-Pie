@@ -2,17 +2,7 @@
     session_start();
 ?>
 
-<?php 
-    $userId = $_SESSION['user_id'];
 
-    if(isset($_POST['submit_question'])) {
-        $question = $_POST['question'];
-        $date = date('y-m-d');
-        mysqli_query($con, "INSERT INTO forum_question VALUES (NULL,'$userId','$question','$date',0)") or die("Error!");
-
-        header('Location: discussion.php');
-    }
-?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
